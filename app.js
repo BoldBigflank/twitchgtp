@@ -10,7 +10,6 @@ var users = require('./routes/users');
 
 var app = express();
 
-console.log("Hello!");
 var irc = require('./irc');
 
 // view engine setup

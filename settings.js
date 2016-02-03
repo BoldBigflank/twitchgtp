@@ -3,6 +3,12 @@ module.exports = {};
 module.exports.IRC = {
     "server":"irc.twitch.tv",
     "nick":"ggezbot",
-    "password":"oauth:liqywijmwpp4jtq9kfhgp6ekr7h02b",
+    "password":"GO TO twitchapps.com/tmi/ TO GET THIS",
     "channels":["#boldbigflank"]
 };
+
+module.exports.pubnub = {
+	"publish_key":"",
+	"subscribe_key":"",
+	"secret_key":""
+}

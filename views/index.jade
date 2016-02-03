@@ -1,5 +1,16 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    h1.text-center GTP Twitch Edition
+    .row
+        .col-md-4
+            img.img-responsive.img-rounded(src="https://dl.dropboxusercontent.com/u/7776712/GTP/tumblr_lilqvfhKOO1qz9q81o1_500.jpg")
+            h3.text-center Caption This Photo
+        .col-md-8
+            table.table
+                thead
+                    th Vote Code
+                    th Entry
+                    th Votes
+                tbody#entries
+    script(src="/javascripts/index.js")
